@@ -45,7 +45,7 @@
 	<repository>
 		<id>nexus</id>
 		<name>Prithika Repository - Releases</name>
-		<url>http://65.2.83.207:8081/repository/mithun-releases/url>
+		<url>http://65.2.83.207:8081/repository/mithun-releases</url>
 	</repository>
 
 </distributionManagement>
