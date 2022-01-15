@@ -35,6 +35,20 @@
 		</dependency>
 
 	</dependencies>
+<distributionManagement>
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>Prithika Repository - Snapshot</name>
+		<url>http://65.2.83.207:8081/repository/mithun-snapshot/</url>
+	</snapshotRepository>
+	
+	<repository>
+		<id>nexus</id>
+		<name>Prithika Repository - Releases</name>
+		<url>http://65.2.83.207:8081/repository/mithun-releases/url>
+	</repository>
+
+</distributionManagement>
 
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
